@@ -7,6 +7,18 @@ use phpseclib3\Crypt\AES;
 
 class KeyManagementService
 {
+<<<<<<< HEAD
+=======
+    public function generateKeyPair()
+    {
+        $rsa = RSA::createKey(2048);
+        return [
+            'private_key' => $rsa->toString('PKCS1'),
+            'public_key' => $rsa->getPublicKey()->toString('PKCS1')
+        ];
+    }
+
+>>>>>>> 9b33cf3aad506f75a3d60843591a9ccfbc5534ed
     public function generateSymmetricKey()
     {
         return random_bytes(32); // 256-bit key

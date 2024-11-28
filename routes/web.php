@@ -4,7 +4,10 @@ use App\Http\Controllers\FileController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\Auth\RegisteredUserController;
 use App\Http\Controllers\Auth\AuthenticatedSessionController;
+<<<<<<< HEAD
 use App\Http\Controllers\DashboardController;
+=======
+>>>>>>> 9b33cf3aad506f75a3d60843591a9ccfbc5534ed
 use App\Http\Controllers\DataAccessController;
 use Illuminate\Support\Facades\Route;
 
